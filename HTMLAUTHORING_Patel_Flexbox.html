@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Box Lab Exercise</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+        <style>
+            figcaption 
+            {
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 1.4em;
+            }
+            #container
+            {
+                width: 92%;
+                background-color: #eee;
+                margin: 0 auto;
+                border: 1px solid black;
+                padding: 25px 10px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.1em;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                height: 100%;
+                align-items: flex-start;
+            }
+            img
+            {
+                width: 100%;
+                border: 1px solid darkgray;
+                padding: 3px;
+            }
+            #one,#two,#three,#four,#five,#six,#seven,#eight,#nine
+            {
+                width: 33%;
+            }
+            @media only screen and (max-width: 640px)
+            {
+               #one,#two,#three,#four,#five,#six,#seven,#eight,#nine
+                {
+                width: 100%;
+                } 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="one">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+            <div id="two">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+            <div id="three">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+            <div id="four">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+            <div id="five">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+            <div id="six">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+            <div id="seven">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+            <div id="eight">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+            <div id="nine">
+                <figure>
+                    <img src="https://the-drive-2.imgix.net/https%3A%2F%2Fapi.thedrive.com%2Fwp-content%2Fuploads%2F2019%2F09%2FST21.jpg%3Fquality%3D85?w=1440&auto=compress%2Cformat&ixlib=js-1.4.1&s=b16fe53187c9bda70e797e5e12f771a5" alt="" />
+                    <figcaption>F14 Tomcat</figcaption>
+                    <p>The F-14 Tomcat was designed as both an air superiority fighter and a long-range naval interceptor,</p>
+                </figure>
+            </div>
+        </div><!-- container -->
+    </body>
+</html>
